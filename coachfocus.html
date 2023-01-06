@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" coachfocus.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="coachfocus.css">
+</head>
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width="150px" src="logo-side-area.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: center;">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Podcast</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Company
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+              </li>
+            </ul>
+          
+            <!-- <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-google-plus-square"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+        <div style="display: flex;">
+          <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 96c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm200-24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"/></svg>
+          <svg width="20px" style="margin-left: 25px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
+          <svg width="20px" style="margin-left: 25px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </div>
+      </nav>
+
+
+<!-- <h1 class="image1" style="background-image: url(https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-video-img.jpg); width: 1175px; height: 542px; border-radius: 15px; color: white; margin: 135px; margin-top: 70px; padding: 204px; font-size: 100px; ">Create tme & <br> financial freedom</h1> -->
+
+<div class="container" style="margin-left: 140px;">
+  <div class="row">
+    <div class="col-12">
+      <img style="width: 100%; margin-top: 56px; border-radius: 25px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-video-img.jpg" alt="">
+      <h1 style="font-size: 50px; margin-top: -192px; color: white; margin-left: 100px;">Create time & <br> financial freedom</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" style="display: flex; justify-content: space-around; margin-top: 105px;">
+	<div class="row">
+		<div class="col-md-4">
+			<img style="width: 370px; border-radius: 25px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-7.jpg" alt="">
+			<h3 style="margin-top: 30px;">
+				Step-By-Step <br> Membership Guide
+			</h3> 
+			<button style="border:1px solid; padding: 7.5px; border-radius: 25px; width: 150px; background-color: transparent; margin-top: 20px;">Learn more &#8594;</button>
+		</div>
+		<div class="col-md-4">
+			<img style="width: 370px; border-radius: 25px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-6.jpg" alt="">
+			<h3 style="margin-top: 30px;">
+				Membership Tips <br> Guide For Beginners
+			</h3> 
+			<button style="border:1px solid; padding: 7.5px; border-radius: 25px; width: 150px; background-color: transparent; margin-top: 20px;">Learn more &#8594;</button>
+		</div>
+		<div class="col-md-4">
+			<img style="width: 370px; border-radius: 25px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/06/home-5-img-15.jpg" alt="">
+			<h3 style="margin-top: 30px;">
+				Free Membership <br> Tips Guide For Beginners
+			</h3> 
+			<button style="border:1px solid; padding: 7.5px; border-radius: 25px; width: 150px; background-color: transparent; margin-top: 20px;">Learn more &#8594;</button>
+		</div>
+	</div>
+</div>
+
+<h1 style="text-align: center; margin-top: 100px; font-size: 45px;">Certifiied executive training coaching, <br> proven results over years</h1>
+
+<div class="container">
+    <div class="row" style="margin-top: 60px; margin-left: 10px;">
+      <div class="col"><img src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-8.png" alt=""></div>
+      <div class="col"><img src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-11.png" alt=""></div>
+      <div class="col"><img src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-10.png" alt=""></div>
+      <div class="col"><img src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-9.png" alt=""></div>
+    </div>
+</div>
+
+<div style="background-color: #f9f9f9;"> 
+<div class="container-fluid" style="display: flex; justify-content: end; margin-top: 200px;">
+	<div class="row">
+		<div class="col-md-6" style="margin-top: 40px;">
+			<h1 style="font-size: 56px;">
+				You want to improve? <br> We have methods.
+			</h1>
+			<h5 style="font-size: 18px; margin-top: 30px;">
+                <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>	Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed diam nonumy eirmod tempor omni diisti.
+            </h5>
+			<h5 style="font-size: 18px; margin-top: 20px;">
+                <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>	Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed diam nonumy eirmod tempor omni diisti.	
+            </h5>
+			<h5 style="font-size: 18px; margin-top: 20px;">
+                <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>	Lorem ipsum dolor sit amet, conse tetur sadipscing elitr, sed diam nonumy eirmod tempor omni diisti.
+            </h5>
+		</div>
+		<div class="col-md-6">
+			<img style="border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-2.jpg" alt="">
+		</div>
+	</div>
+</div>
+</div>
+
+
+<h1 class="benefits-of-coaching" style="margin-left: 160px; margin-top: 100px; font-size: 50px;">Benefits of coaching</h1>
+
+<div class="text" class="container-fluid" style="padding: 148px; margin-top: -128px;">
+	<div class="row">
+		<div class="col-md-4">
+            <div style="display: flex;"> 
+                <h1 class="text-left" style="font-size: 84px; margin-top: 31px;" >
+                    01
+                </h1>
+                <h3 style="margin-top: 46px; margin-left: 20px;">
+                    Schedules
+                </h3>
+            </div>
+			<p style="width: 51%; margin-left: 111px; margin-top: -53px;">
+                Lorem ipsum dolor sit amet, consetetur sadip scing elitrsed diam lon.
+			</p>
+		</div>
+		<div class="col-md-4">
+            <div style="display: flex;">
+                <h1 style="font-size: 84px; margin-top: 31px;">
+                    02
+                </h1>
+                <h3 style="margin-top: 46px; margin-left: 20px;">
+                    Organisation
+                </h3>
+                <p style="width: 51%; margin-left: -156px; margin-top: 87px; ">
+                    Lorem ipsum dolor sit amet, consetetur sadip scing elitrsed diam lon.
+                </p>
+            </div>
+		</div>
+		<div class="col-md-4">
+            <div style="display: flex;">
+                <h1 style="font-size: 84px; margin-top: 31px;">
+                    03
+                </h1>
+                <h3 style="margin-top: 46px; margin-left: 20px;">
+                    Save Time
+                </h3>
+                <p style="width: 51%; margin-left: -127px; margin-top: 86px; ">
+                    Lorem ipsum dolor sit amet, consetetur sadip scing elitrsed diam lon.
+                </p>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row" >
+		<div class="col-md-6">
+			<img class="image2" style="height: auto; width: 414px; margin-left: 135px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/home-5-img-12.jpg" alt="">
+		</div>
+		<div class="col-md-6" style="margin-top: 100px;">
+		<h1 style="font-family: 'Mulish', sans-serif;">
+      Take advice from someone <br> who is an agency owner.
+    </h1>
+			<p class="text2" style="width: 444px; margin-top: 25px;">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore man aliquyam erat, sed diam vo luptua. At vero eos et accusam et justo duo dolor es et ea rebum. Stet clita kasd gubergren.
+			</p>
+			<p style="width: 340px;">
+				You won’t find us teaching anything we’ve not succeeded with in our own agency first”
+			</p>
+			<p style="opacity: calc(0.5);">   
+        Ana Grace
+			</p> 
+			<button style="border:1px solid; padding: 7.5px; border-radius: 25px; width: 239px; background-color: transparent; margin-top: 20px;">Our tribe & Movement &#8594;</button>
+		</div>
+	</div>
+</div>
+
+<h1 class="text3" style="font-family: 'Libre Baskerville', serif; padding: 155px; font-size: 50px;">View our popular courses</h1>
+
+<div class="container-fluid" style="display: flex; justify-content: space-around; margin-top: -115px; margin-left: -30px;">
+	<div class="row">
+		<div class="col-md-4">
+			<img style="width: 330px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/Courses-img-10.jpg" alt=""> 
+			<div><a style="color: black; opacity: calc(0.5);" href="">business | coaching</a></div>
+			<h3 style="font-size: 25px; margin-top: 20px;">
+				Entrepreneurship and <br> Business Coach Certificate
+			</h3> 
+			<a style="color: black; opacity: calc(0.5);" href=""> Stiv Martin</a>
+
+      <div style="display: flex; margin-top: 10px; justify-content: space-between;">
+        <p>3.75</p>
+          <div style="margin-right: 150px;">
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+          </div>
+        <p>Free</p>
+      </div>
+		</div>
+		<div class="col-md-4">
+			<img  style="width: 330px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/Courses-img-11.jpg" alt="">
+			<div><a style="color: black; opacity: calc(0.5);" href="">coaching | health | life</a></div>
+			<h3 style="font-size: 25px; margin-top: 20px; ">
+				Coaching Business Plan <br> How to Start a Life
+			</h3> 
+      <a style="color: black; opacity: calc(0.5);" href="">Clara Olsen</a>
+
+      <div style="display: flex; margin-top: 10px; justify-content: space-between;">
+        <p>5</p>
+          <div style="margin-right: 150px;">
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+          </div>
+        <p>15.99$</p>
+      </div>
+		</div>
+		<div class="col-md-4">
+			<img  style="width: 330px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/Courses-img-12.jpg" alt="">
+			<div><a style="color: black; opacity: calc(0.5);" href="">business | team | life</a></div>
+			<h3 style="font-size: 25px; margin-top: 20px;">
+				Train the Trainer Coach: <br> Complete Guide
+			</h3> 
+			<a style="color: black; opacity: calc(0.5);" href="">Stiv Martin</a>
+
+      <div style="display: flex; margin-top: 10px; justify-content: space-between;">
+        <p>4</p>
+          <div style="margin-right: 150px;">
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+          </div>
+        <p>08.00$</p>
+      </div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid" style="display: flex; justify-content: space-around; margin-top: 35px; margin-left: -30px;">
+	<div class="row">
+		<div class="col-md-4">
+			<img style="width: 330px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/Courses-img-4.jpg" alt=""> 
+			<div><a style="color: black; opacity: calc(0.5);" href="">business</a></div>
+			<h3 style="font-size: 25px; margin-top: 20px;">
+				Communication Skills <br> Master Class for Life
+			</h3> 
+			<a style="color: black; opacity: calc(0.5);" href=""> William Hill</a>
+
+      <div style="display: flex; margin-top: 10px; justify-content: space-between;">
+        <p>3.75</p>
+          <div style="margin-right: 150px;">
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+          </div>
+        <p>Free</p>
+      </div>
+		</div>
+		<div class="col-md-4">
+			<img  style="width: 330px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/Courses-img-5.jpg" alt="">
+			<div><a style="color: black; opacity: calc(0.5);" href="">coaching | health | life</a></div>
+			<h3 style="font-size: 25px; margin-top: 20px; ">
+				AWS CloudFormation <br> Master Class v2 [2022]
+			</h3> 
+      <a style="color: black; opacity: calc(0.5);" href="">Clara Olsen</a>
+
+      <div style="display: flex; margin-top: 10px; justify-content: space-between;">
+        <p>5</p>
+          <div style="margin-right: 150px;">
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+          </div>
+        <p>15.99$</p>
+      </div>
+		</div>
+		<div class="col-md-4">
+			<img  style="width: 330px; border-radius: 15px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/05/Courses-img-6.jpg" alt="">
+			<div><a style="color: black; opacity: calc(0.5);" href="">business | team | life</a></div>
+			<h3 style="font-size: 25px; margin-top: 20px;">
+				Microsoft Access Master <br> Class, From Beginner
+			</h3> 
+			<a style="color: black; opacity: calc(0.5);" href="">Stiv Martin</a>
+
+      <div style="display: flex; margin-top: 10px; justify-content: space-between;">
+        <p>4</p>
+          <div style="margin-right: 150px;">
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            <svg style="width: 15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+          </div>
+        <p>08.00$</p>
+      </div>
+		</div>
+	</div>
+</div>
+
+<div style="text-align: center; margin-top: 25px;">
+  <button style=" border:1px solid; padding: 7.5px; border-radius: 25px; width: 239px; background-color: transparent; margin-top: 20px;">View All Courses &#8594;</button>
+</div>
+
+
+<div style="margin-top: 65px;" >
+  <div class="text4" style="background: url(https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/04/Group-1467.jpg); height: 250px; display: flex; justify-content: space-around; padding: 30px; padding: 77px;">
+      <h1 style="color: white;">High performance team coaching. <br> You should join us </h1>
+      <div>
+        <button style=" border:1px solid; padding: 7.5px; border-radius: 25px; width: 168px; background-color: transparent; margin-top: 20px; color: white;">Learn more &#8594;</button>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div style="background-color: black;">
+  <div class="content d-flex align-items-center bg-light">
+  </div>
+  <footer class="footer-14398">
+  <div class="container" style="padding: 60px;">
+  <div class="row mb-5">
+  <div class="col-md-3">
+  <img style="width: 185px;" src="https://coachfocus.qodeinteractive.com/wp-content/uploads/2022/04/logo-footer-white.png" alt="">
+  </div>
+  <div class="col-md-2 ml-auto">
+  <h3 style="color: white; font-size: 15px;">Contact Info</h3>
+  <ul class="list-unstyled links" >
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Avenue Reine 1190,</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Brussels, Belgium</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">+32 2 512 08 15</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">coachfocus@info.com</a></li>
+  </ul>
+  </div>
+  <div class="col-md-2 ml-auto">
+  <h3 style="color: white; font-size: 15px;">Our Online Courses</h3>
+  <ul class="list-unstyled links">
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Languages Clases</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Photography Online</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Entrepreneurs and Business</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Communication Skills</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Design Skills</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Developing Courses</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">Business Coaching</a></li>
+  </ul>
+  </div>
+  <div class="col-md-2 ml-auto">
+  <h3 style="color: white; font-size: 15px;">Social Media</h3>
+  <ul class="list-unstyled links">
+  <li><a href="#" style="color: white; opacity: calc(0.6);">facebook</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">linkedin</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">instagram</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">dribbble</a></li>
+  <li><a href="#" style="color: white; opacity: calc(0.6);">behance</a></li>
+  </ul>
+  </div>
+  </div>
+  <div class="row mb-4">
+  <div class="col-12 pb-4">
+  <div class="line"></div>
+  </div>
+  <div class="col-md-6 text-md-right">
+  <ul class="list-unstyled social nav-right">
+  <li><a href="#"><span class="icon-twitter"></span></a></li>
+  <li><a href="#"><span class="icon-instagram"></span></a></li>
+  <li><a href="#"><span class="icon-facebook"></span></a></li>
+  <li><a href="#"><span class="icon-pinterest"></span></a></li>
+  </ul>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-7">
+  <p style="color: white; opacity: calc(0.6);"><small>© 2022 Qode Interactive, All Rights Reserved</small></p>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+          crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>

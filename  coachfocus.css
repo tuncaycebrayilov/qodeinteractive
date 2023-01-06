@@ -1,0 +1,24 @@
+@media (min-width: 361px) and (max-width: 768px) {
+    .image1 {
+        font-size: 0px !important;
+        margin: -75px !important;
+        width: 25px !important;
+    }
+    .text{
+      margin-left: 0px Im !important;
+    }
+    .benefits-of-coaching{
+        padding: 9px !important;
+        margin-top: 0px !important;
+    }
+    .image2{
+        width: 342px !important;
+        margin-left: 0px !important;
+    }
+    .text2 {
+        width: 334px;
+    }
+    .text3{
+        padding: 0px !important;
+    }
+}
